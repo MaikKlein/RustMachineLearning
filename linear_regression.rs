@@ -61,11 +61,11 @@ fn main() {
 
  
  let data_set = ~[HouseData::new(10.0f,20.0f),
- 				 HouseData::new(20.0f,40.0f),
- 				 HouseData::new(30.0f,60.0f),
- 				 HouseData::new(40.0f,80.0f),
- 				 HouseData::new(50.0f,100.0f),
- 				 HouseData::new(60.0f,120.0f)];
+                 HouseData::new(20.0f,40.0f),
+                 HouseData::new(30.0f,60.0f),
+                 HouseData::new(40.0f,80.0f),
+                 HouseData::new(50.0f,100.0f),
+                 HouseData::new(60.0f,120.0f)];
 
  printfln!(linear_regression(0.00001f,//stepsize
  0.0000001f,//epsilon
