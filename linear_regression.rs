@@ -59,6 +59,7 @@ fn linear_regression(step_size:float,
 }
 fn main() {
 
+ 
  let data_set = ~[HouseData::new(10.0f,20.0f),
  				 HouseData::new(20.0f,40.0f),
  				 HouseData::new(30.0f,60.0f),
