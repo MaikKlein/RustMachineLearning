@@ -11,9 +11,9 @@ impl HouseData {
     }
 }
 fn calculate_derivative(theta0: float,
-       theta1:  float, 
-       data_set: &[HouseData]) 
-       -> (float,float) {
+                        theta1:  float, 
+                        data_set: &[HouseData]) 
+                        -> (float,float) {
 
     let m = 1.0f/(data_set.len() as float);
     let derivative1 = data_set
