@@ -22,7 +22,7 @@ fn calculate_derivative(theta0: float,
 							 |x,b: &HouseData|x + ((theta0 + theta1 * b.size) - b.cost));
 
 	let derivative2 = data_set
-					    .iter()
+						.iter()
 						.fold(0.0f,
 							 |x,b: &HouseData|x + ((theta0 + theta1 * b.size) - b.cost)*b.size);
 
